@@ -1,1 +1,1 @@
-# Gerador_n-Aleat-rio
+# Gerador_n_Aleatorio
