@@ -1,56 +1,56 @@
 body {
-    background-color: #ece6e6; /* Cor de fundo da página */
-    margin: 0; /* Remove margens padrão */
-    padding: 0; /* Remove padding padrão */
+    background-color: #ece6e6;
+    margin: 0;
+    padding: 0;
 }
 
 .emoji-container {
-    display: flex; /* Usa flexbox para o layout */
-    justify-content: center; /* Centraliza os itens horizontalmente */
-    align-items: center; /* Centraliza os itens verticalmente */
-    flex-direction: row; /* Direção dos itens em linha */
-    background-color: #ece6e6; /* Cor de fundo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #ece6e6;
 }
 
 #container {
-    background-color: #ece6e6; /* Cor de fundo */
-    display: flex; /* Usa flexbox para o layout */
-    align-items: center; /* Centraliza os itens verticalmente */
-    justify-content: center; /* Centraliza os itens horizontalmente */
-    flex-direction: column; /* Direção dos itens em coluna */
-    margin: 0; /* Remove margens padrão */
-    height: 80vh; /* Ajusta a altura do container */
-    font-family: Arial, Helvetica, sans-serif; /* Fonte padrão */
-    padding-top: 10vh; /* Adiciona padding no topo */
+    background-color: #ece6e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    height: 80vh;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10vh;
 }
 
 #Cabecalho {
-    background-color: rgb(211, 160, 135); /* Cor de fundo do cabeçalho */
-    color: black; /* Cor do texto */
-    text-align: center; /* Centraliza o texto */
-    padding: 20px 0; /* Padding superior e inferior */
-    width: 80%; /* Define a largura do cabeçalho */
-    margin: 0 auto; /* Centraliza o cabeçalho */
-    border-radius: 10px; /* Bordas arredondadas */
+    background-color: rgb(211, 160, 135);
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
 }
 
 button {
-    margin-bottom: 20px; /* Margem inferior */
-    padding: 20px 20px; /* Padding interno */
-    font-size: 12px; /* Tamanho da fonte */
-    cursor: pointer; /* Cursor de ponteiro */
-    border-radius: 8px; /* Bordas arredondadas */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    transform: translateY(-30px); /* Move o botão para cima */
+    margin-bottom: 20px;
+    padding: 20px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transform: translateY(-30px);
 }
 
 button:hover {
-    background-color: rgb(211, 160, 135); /* Cor de fundo ao passar o mouse */
-    transform: scale(1.2) translateY(-30px); /* Aumenta o botão e mantém ele movido para cima ao passar o mouse */
+    background-color: rgb(211, 160, 135);
+    transform: scale(1.2) translateY(-30px);
 }
 
 label {
-    display: block; /* Faz com que cada número fique em uma linha */
-    margin: 5px; /* Margem ao redor */
-    font-size: 58px; /* Tamanho da fonte */
+    display: block;
+    margin: 5px;
+    font-size: 58px;
 }
